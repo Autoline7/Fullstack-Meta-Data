@@ -19,20 +19,20 @@ const Navbar = () => {
   return (
     <nav 
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-6",
+        "fixed top-0 left-0 right-0 z-50 h-20 transition-all duration-300 py-5 px-4",
         isScrolled 
           ? "bg-white/80 backdrop-blur-lg shadow-sm" 
           : "bg-transparent"
       )}
     >
-      <div className="container max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex items-center">
-          <a href="/" className="flex items-center">
+      <div className="container max-w-7xl mx-auto flex items-center justify-between h-full">
+        <div className="flex items-center h-full">
+          <a href="/" className="flex items-center h-full rounded-sm">
             <img 
-              src="/lovable-uploads/ce207080-f6c2-430d-9621-79d32ab08655.png" 
-              alt="Convrt.ai Logo" 
-              className="h-8 md:h-10"
-            />
+              src="/lovable-uploads/SandieTechWB.png" 
+              alt="Sandie Tech Logo" 
+              className="h-full object-contain"
+        />
           </a>
         </div>
         
@@ -41,18 +41,16 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
             How It Works
           </a>
-          <a href="#testimonials" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
-            Case Studies
-          </a>
-          <a href="#product" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
-            Product
-          </a>
           <a href="#pricing" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
             Pricing
           </a>
-          <a href="#cta" className="button-primary">
+          <a href="/sign-in" target="_blank" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+            Sign-In
+          </a>
+          <a href="/get-started" target="_blank" className="button-primary">
             Get Started
           </a>
+          
         </div>
         
         {/* Mobile Menu Button */}
