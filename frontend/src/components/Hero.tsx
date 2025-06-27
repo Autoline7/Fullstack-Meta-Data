@@ -54,7 +54,7 @@ const Hero = () => {
             variants={itemVariants}
             className="font-inter font-bold text-4xl md:text-5xl lg:text-7xl tracking-tight max-w-4xl mx-auto mb-6 text-convrt-dark-blue leading-[1.1]"
           >
-            Free <span className="text-[#EA384C] font-extrabold">Instagram</span> Unfollowers <span className="text-[#6936F5] font-extrabold">Checker</span>
+          View Your <span className="text-[#EA384C] font-extrabold">Instagram</span>  <span className="text-[#6936F5] font-extrabold">Data</span>
           </motion.h1>
           
           <motion.p 
@@ -68,7 +68,7 @@ const Hero = () => {
             variants={itemVariants}
             className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-16"
           >
-            <a href="/get-started" className="button-primary flex items-center group font-inter font-medium">
+            <a href="/get-started" target="_blank" className="button-primary flex items-center group font-inter font-medium">
               Get Started
               <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
             </a>
