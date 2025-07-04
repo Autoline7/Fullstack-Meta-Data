@@ -1,4 +1,3 @@
-import React from 'react'
 import InstagramAccount from './InstagramAccount'
 
 const accounts = [
